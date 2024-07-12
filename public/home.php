@@ -106,17 +106,15 @@
                         <div class="card border-0  bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Assistances Techniques</h5>
-                                <p class="card-text"><a href="#" class="">FAQ</a></p>
-                                <p class="card-text"><a href="#" class="">Contactez-nous</a></p>
-                                <p class="card-text"><a href="#" class="">Qui sommes-nous ?</a></p>
+                                <p class="card-text"><a href="#" class="">Assistance direct 24H/24</a></p>
+                                <p class="card-text"><a href="#" class="">Assistance Chat</a></p>
                             </div>
                         </div>
                         <div class="card border-0  bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Mentions Légales</h5>
-                                <p class="card-text"><a href="#" class="">FAQ</a></p>
-                                <p class="card-text"><a href="#" class="">Contactez-nous</a></p>
-                                <p class="card-text"><a href="#" class="">Qui sommes-nous ?</a></p>
+                                <p class="card-text"><a href="#" class="">Conditions Générales</a></p>
+                                <p class="card-text"><a href="#" class="">Politiques de confidentialités</a></p>
                             </div>
                         </div>
                         <div class="card border-0  bg-dark">
