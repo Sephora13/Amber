@@ -17,10 +17,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-0">
                 <h1 class="navbar-brand font-weight-bold" href="#!">Amber</h1>
+                <a class="btn btn-primary d-lg-none " href="#!">Connexion</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Acheter</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Assitance</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Inscription</a></li>
@@ -33,12 +33,37 @@
         <div class="container px-0 px-lg-5">
             <!-- Heading Row-->
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-5">
+                <div class="col-lg-5 p-4">
                     <h1 class="font-weight-bold">Amber,</h1>
                     <h2>Votre plateforme d'échanges de monnaies.</h2>
                     
                 </div>
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
+                <div class="col-lg-7 px-4 px-lg-2 bg-light">
+                    
+                    <form action="" method="post" class="p-3 mt-3">
+                        <h2 class="font-weight-bold">Exchanger</h2>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputZip">Donner</label>
+                                <input type="text" class="form-control" id="" placeholder="Saisisser un montant">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputZip">Recevoir</label>
+                                <input type="text" class="form-control" id="" placeholder="Saisisser un montant">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputState">Devises</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>BTC...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                        </div>
+                        <input class="btn btn-dark btn-lg" type="submit" value="Acheter">
+                    </form>
+                </div>
             </div>
         </div>
 
